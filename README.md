@@ -14,3 +14,5 @@ Running the query with an arg of "post_type" => array('post', 'event') would giv
 Wordpress was not liking my combined queries either. So I came up with the solution of running two tax_query arguments that would query the slugs for each taxonomy type. Then you just have to create a relation of "OR" for the two tax_queries and WordPress will happily look for either post type with EITHER taxonomy.
 
 Easy peasy.
+
+I have included an example for category pages as well as single pages or custom post type pages. The method is essentially the same- but I created two examples for clarity. I'm swell like that.
