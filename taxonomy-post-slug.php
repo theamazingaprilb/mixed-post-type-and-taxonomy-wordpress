@@ -1,8 +1,8 @@
 <?php
 /**
-* Author: Doug Marshall
-* Author Site: http://www.theamazingdoug.com
-* Author Github: https://www.github.com/justplaindoug
+* Author: April Marshall
+* Author Site: http://www.aprilagain.com
+* Author Github: https://www.github.com/theamazingaprilb
 * This is a single-"custom-post-type" page that is populated in part by the content for each entry in that custom-post-type
 * However, it doesn't pull in the category id or slug by default. So to accomplish pulling in the appropriate posts, we have to pull the page slug in order to populate our taxonomies. This is part of the reason that I used slugs in the actual project- because the custom-taxonomy, category, and custom-post-type page all use the same slug format (i.e. "firstname-lastname" or "singlename")
 */
