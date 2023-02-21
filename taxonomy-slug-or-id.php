@@ -1,7 +1,7 @@
 <?php
-// Author: Doug Marshall
-// Author Site: http://www.theamazingdoug.com
-// Author Github: https://www.github.com/justplaindoug
+// Author: April Marshall
+// Author Site: http://www.aprilagain.com
+// Author Github: https://www.github.com/theamazingaprilb
 // get category slug in wordpress this can be slug or ID, for the purposes of this project, I needed to use "slug"
 $cats =  get_the_category();
 $cat = get_category( get_query_var( 'cat' ) );
